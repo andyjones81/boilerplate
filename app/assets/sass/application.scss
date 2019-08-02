@@ -1,0 +1,18 @@
+// global styles for <a> and <p> tags
+$govuk-global-styles: true;
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/public/images/";
+
+//Import GOV.UK Frontend
+@import "node_modules/govuk-frontend/govuk/all";
+
+@import "gc-patterns/gc-colors";
+@import "gc-patterns/gc-typography";
+@import "gc-patterns/gc-position";
+@import "gc-patterns/gc-alert";
+@import "gc-patterns/gc-vertical-menu";
+@import "gc-patterns/gc-hero";
+@import "gc-patterns/gc-overrides";
+@import "gc-patterns/gc-currency";
+@import "gc-patterns/gc-card";

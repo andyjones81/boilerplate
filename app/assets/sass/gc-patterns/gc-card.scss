@@ -1,0 +1,40 @@
+.gc-card{
+    display: block;    
+    background: $pale-grey;
+}
+
+.gc-card-link {
+    border: 1px solid $govuk-border-colour;
+    box-shadow: 0 0 0 1px $govuk-border-colour;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.gc-card-link:hover {
+    border: 1px solid $govuk-focus-colour;
+    box-shadow: 0 0 0 3px $govuk-focus-colour;
+}
+
+.gc-card-heading {
+    pointer-events: none;
+    width: 100%;
+    @include govuk-font(16, $weight: bold);
+    margin-top:0px;
+    color: #005ea5;
+    text-decoration: underline
+}
+
+.gc-card-footer {
+    margin: 0
+}
+
+.gc-card-description,
+.gc-card-footer {
+    pointer-events: none;
+    width: 100%;
+    @include govuk-font(14);
+}

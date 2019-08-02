@@ -1,0 +1,71 @@
+{
+  "name": "gc-node-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": "^10.0.0"
+  },
+  "dependencies": {
+    "acorn": "^6.0.5",
+    "ansi-colors": "^3.2.3",
+    "async": "^3.0.1",
+    "basic-auth": "^2.0.0",
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.14.1",
+    "browser-sync": "^2.11.1",
+    "client-sessions": "^0.8.0",
+    "companies-house-api-es6": "^1.1.1",
+    "contentful": "^7.8.1",
+    "cookie-parser": "^1.4.3",
+    "cross-spawn": "^6.0.5",
+    "del": "^3.0.0",
+    "device": "^0.3.9",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.13.0",
+    "express-writer": "0.0.4",
+    "fancy-log": "^1.3.3",
+    "govuk-elements-sass": "^3.1.3",
+    "govuk-frontend": "^3.0.0",
+    "govuk_frontend_toolkit": "^8.2.0",
+    "govuk_template_jinja": "^0.26.0",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "keypather": "^3.0.0",
+    "lodash": "^4.17.11",
+    "marked": "^0.7.0",
+    "mobile-detect": "^1.4.3",
+    "mssql": "^5.1.0",
+    "notifications-node-client": "^4.6.0",
+    "nunjucks": "^3.1.3",
+    "nunjucks-date-filter": "^0.1.1",
+    "nunjucks-numeral-filter": "0.0.2",
+    "portscanner": "^2.1.1",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "require-dir": "^1.0.0",
+    "serve-favicon": "^2.5.0",
+    "sync-request": "^6.0.0",
+    "tedious": "^6.2.0",
+    "universal-analytics": "^0.4.16",
+    "uuid": "^3.2.1",
+    "winston": "^3.2.1",
+    "xml2js": "^0.4.19"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "nunjucks"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.0.1",
+    "standard": "^12.0.1",
+    "supertest": "^3.0.0",
+    "webpack": "^4.35.2"
+  }
+}
