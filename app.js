@@ -17,10 +17,10 @@ var numeralFilter = require('nunjucks-numeral-filter');
 dotenv.config()
 
 // Local dependencies
-const middleware = [
-  require('./lib/middleware/authentication/authentication.js'),
-  require('./lib/middleware/extensions/extensions.js')
-]
+// const middleware = [
+//   require('./lib/middleware/authentication/authentication.js'),
+//   require('./lib/middleware/extensions/extensions.js')
+// ]
 const config = require('./app/config.js')
 const packageJson = require('./package.json')
 const routes = require('./app/routes.js')
@@ -82,7 +82,7 @@ if (isSecure) {
   app.set('trust proxy', 1) // needed for secure cookies on heroku
 }
 
-middleware.forEach(func => app.use(func))
+// middleware.forEach(func => app.use(func))
 
 // Set up App
 var appViews = extensions.getAppViews([
